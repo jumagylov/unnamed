@@ -136,11 +136,12 @@ DATABASES_URL = 'postgres://rqgehybrogueht:dc2330968da00894c68ee3b186f4e5532cf27
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'akti',
-        'USER': 'asd',
+        'USER': 'akti',
         'PASSWORD': 'admin',
         'HOST': '127.0.0.1',
         'PORT': '5432',
